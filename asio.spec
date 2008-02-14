@@ -3,6 +3,7 @@ Version:	0.3.9
 Release:	%mkrel 1
 Summary:	asio
 Group:		Development/C
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	Boost Software License 1.0
 Source0:	http://nchc.dl.sourceforge.net/sourceforge/%{name}/%{name}-%version.tar.bz2
 URL:		http://asio.sourceforge.net
