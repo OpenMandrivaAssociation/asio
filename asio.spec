@@ -1,6 +1,6 @@
 Name:		asio
 Version:	0.3.9
-Release:	%mkrel 2
+Release:	%mkrel 3
 Summary:	Cross-platform C++ library for network programming
 Group:		Development/C
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
