@@ -1,10 +1,10 @@
 Name:		asio
-Version:	1.2.0
+Version:	1.4.1
 Release:	%mkrel 1
 Summary:	Cross-platform C++ library for network programming
 Group:		Development/C
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-License:	Boost Software License 1.0
+License:	Boost
 Source0:	http://nchc.dl.sourceforge.net/sourceforge/%{name}/%{name}-%version.tar.bz2
 URL:		http://asio.sourceforge.net
 BuildRequires:  boost-devel >= 1.33
@@ -25,10 +25,14 @@ approach.
 %make
 
 %install
+rm -rf %{buildroot}
 %makeinstall_std
 
 %check
 make check
+
+%clean
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
