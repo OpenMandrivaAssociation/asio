@@ -1,5 +1,5 @@
 Name:		asio
-Version:	1.4.5
+Version:	1.4.8
 Release:	%mkrel 1
 Summary:	Cross-platform C++ library for network programming
 Group:		Development/C
@@ -18,7 +18,7 @@ developers with a consistent asynchronous I/O model using a modern C++
 approach.
 
 %prep
-%setup -n %name-%version -q
+%setup -n %{name}-%{version} -q
 
 %build
 %configure2_5x
@@ -38,5 +38,5 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc README
 %doc doc/*
-%_includedir/*.hpp
-%_includedir/%{name}
+%{_includedir}/*.hpp
+%{_includedir}/%{name}
