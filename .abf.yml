@@ -1,2 +1,4 @@
+removed_sources:
+  asio-1.4.8.tar.bz2: bd9a8a58c97bc4c3fdcad44de669fb2bf75e302b
 sources:
-  "asio-1.4.8.tar.bz2": bd9a8a58c97bc4c3fdcad44de669fb2bf75e302b
+  asio-1.5.3.tar.bz2: d73667cf07ed8b46d456a6fd80e98ef8a886e206

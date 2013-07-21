@@ -1,10 +1,10 @@
 Name:		asio
-Version:	1.4.8
-Release:	2
+Version:	1.5.3
+Release:	1
 Summary:	Cross-platform C++ library for network programming
 Group:		Development/C
 License:	Boost
-Source0:	http://nchc.dl.sourceforge.net/sourceforge/%{name}/%{name}-%version.tar.bz2
+Source0:	https://sourceforge.net/projects/asio/files/asio/1.5.3%20%28Development%29/%{name}-%{version}.tar.bz2
 URL:		http://asio.sourceforge.net
 BuildRequires:	boost-devel >= 1.33
 BuildRequires:	pkgconfig(openssl)
@@ -70,5 +70,6 @@ approach.
 * Sat Oct 13 2007 Funda Wang <fwang@mandriva.org> 0.3.8-0.rc3.1mdv2008.1
 + Revision: 97818
 - import asio
+
 
 
