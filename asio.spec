@@ -9,6 +9,8 @@ URL:		http://asio.sourceforge.net
 BuildRequires:	boost-devel >= 1.33
 BuildRequires:	pkgconfig(openssl)
 
+%define debug_package %{nil}
+
 %description
 asio is a cross-platform C++ library for network programming that provides
 developers with a consistent asynchronous I/O model using a modern C++
