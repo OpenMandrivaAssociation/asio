@@ -6,6 +6,7 @@ Summary:	Cross-platform C++ library for network programming
 Group:		Development/C
 License:	Boost
 Source0:	http://sourceforge.net/projects/asio/files/asio/1.10.2%20%28Stable%29/%{name}-%{version}.tar.bz2
+Source100: %{name}.rpmlintrc
 URL:		http://asio.sourceforge.net
 BuildRequires:	boost-devel >= 1.33
 BuildRequires:	pkgconfig(openssl)
