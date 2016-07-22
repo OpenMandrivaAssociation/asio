@@ -1,3 +1,6 @@
+%define _disable_rebuild_configure 1
+%define _disable_lto 1
+
 Name:		asio
 Version:	1.10.2
 Release:	2
