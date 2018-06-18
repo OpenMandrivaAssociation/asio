@@ -2,13 +2,13 @@
 %define _disable_lto 1
 
 Name:		asio
-Version:	1.10.2
-Release:	2
+Version:	1.12.1
+Release:	1
 Summary:	Cross-platform C++ library for network programming
 
 Group:		Development/C
 License:	Boost
-Source0:	http://sourceforge.net/projects/asio/files/asio/1.10.2%20%28Stable%29/%{name}-%{version}.tar.bz2
+Source0:	http://sourceforge.net/projects/asio/files/asio/%{version}%20%28Stable%29/%{name}-%{version}.tar.bz2
 Source100: %{name}.rpmlintrc
 URL:		http://asio.sourceforge.net
 BuildRequires:	boost-devel >= 1.33
