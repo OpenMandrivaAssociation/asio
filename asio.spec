@@ -11,6 +11,9 @@ License:	Boost
 Source0:	http://sourceforge.net/projects/asio/files/asio/%{version}%20%28Stable%29/%{name}-%{version}.tar.bz2
 Source100: %{name}.rpmlintrc
 URL:		http://asio.sourceforge.net
+# Also:
+# https://github.com/chriskohlhoff/asio
+# https://think-async.com/Asio/
 BuildRequires:	boost-devel >= 1.33
 BuildRequires:	pkgconfig(openssl)
 
@@ -22,14 +25,14 @@ developers with a consistent asynchronous I/O model using a modern C++
 approach.
 
 %prep
-%setup -q
+%autosetup -p1
+%configure
 
 %build
-%configure2_5x
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %check
 # Disable tests for now as 2 of them fail at ABF but pass at local machines
