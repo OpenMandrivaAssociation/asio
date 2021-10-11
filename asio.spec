@@ -2,7 +2,7 @@
 %define _disable_lto 1
 
 Name:		asio
-Version:	1.18.1
+Version:	1.18.2
 Release:	1
 Summary:	Cross-platform C++ library for network programming
 
@@ -43,6 +43,3 @@ approach.
 %doc doc/*
 %{_includedir}/*.hpp
 %{_includedir}/%{name}
-
-
-
