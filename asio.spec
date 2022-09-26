@@ -1,15 +1,14 @@
 %define _disable_rebuild_configure 1
-%define _disable_lto 1
 
 Name:		asio
-Version:	1.22.2
+Version:	1.24.0
 Release:	1
 Summary:	Cross-platform C++ library for network programming
 
 Group:		Development/C
 License:	Boost
 Source0:	http://sourceforge.net/projects/asio/files/asio/%{version}%20%28Stable%29/%{name}-%{version}.tar.bz2
-Source100: %{name}.rpmlintrc
+Source100:	%{name}.rpmlintrc
 URL:		http://asio.sourceforge.net
 # Also:
 # https://github.com/chriskohlhoff/asio
@@ -43,3 +42,4 @@ approach.
 %doc doc/*
 %{_includedir}/*.hpp
 %{_includedir}/%{name}
+%{_libdir}/pkgconfig/asio.pc
