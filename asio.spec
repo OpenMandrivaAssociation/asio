@@ -2,7 +2,7 @@
 
 Name:		asio
 Version:	1.24.0
-Release:	1
+Release:	2
 Summary:	Cross-platform C++ library for network programming
 
 Group:		Development/C
