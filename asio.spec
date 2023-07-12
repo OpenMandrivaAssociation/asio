@@ -1,8 +1,8 @@
 %define _disable_rebuild_configure 1
 
 Name:		asio
-Version:	1.24.0
-Release:	2
+Version:	1.28.0
+Release:	1
 Summary:	Cross-platform C++ library for network programming
 
 Group:		Development/C
