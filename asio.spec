@@ -9,7 +9,7 @@ Group:		Development/C
 License:	Boost
 Source0:	http://sourceforge.net/projects/asio/files/asio/%{version}%20%28Stable%29/%{name}-%{version}.tar.bz2
 Source100:	%{name}.rpmlintrc
-URL:		http://asio.sourceforge.net
+URL:		https://asio.sourceforge.net
 # Also:
 # https://github.com/chriskohlhoff/asio
 # https://think-async.com/Asio/
