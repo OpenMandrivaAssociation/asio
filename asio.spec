@@ -13,6 +13,11 @@ URL:		https://asio.sourceforge.net
 # Also:
 # https://github.com/chriskohlhoff/asio
 # https://think-async.com/Asio/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	boost-devel >= 1.33
 BuildRequires:	pkgconfig(openssl)
 
